@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "A simple hello world gem"
   s.authors     = ["Nick Quaranto"]
   s.email       = "nick@quaran.to"
-  s.files       = ["lib/awelvor.rb"]
+  s.files       = ["https://github.com/awelvor/rubygem/lib/awelvor.rb"]
   s.homepage    =
     "https://rubygems.org/gems/awelvor"
   s.license       = "MIT"
