@@ -36,5 +36,7 @@ jobs:
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: gem1
       run: gem -v
+    - name: gem2
+      run: gem build awelvor.gemspec
     #- name: Run tests
     #  run: bundle exec rake
