@@ -37,6 +37,6 @@ jobs:
     - name: gem1
       run: gem -v
     - name: gem2
-      run: gem build awelvor.gemspec
+      run: gem list -r awelvor
     #- name: Run tests
     #  run: bundle exec rake
