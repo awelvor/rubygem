@@ -1,9 +1,6 @@
-class Awelvor
 
-  def self.hi(language = "english")
-    translator = Translator.new(language)
-    translator.hi
+class Awelvor
+  def self.hi
+    puts "Hello world!"
   end
 end
-
-require 'awelvor/translator'
