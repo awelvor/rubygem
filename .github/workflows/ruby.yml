@@ -39,4 +39,4 @@ jobs:
     - name: gem2
       run: gem list -r awelvor
     - name: Run tests
-      run: ruby -Ilib ./bin/awelvor
+      run: ruby ./bin/awelvor
